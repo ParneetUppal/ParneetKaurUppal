@@ -1,0 +1,6 @@
+- change the whole style of the webpage Mostly Css 
+- breakdown and understand what the .js file does 
+- add new pics and projects 
+- Add proper description and futurer aspects 
+- upload this onto a live server and link it with ur github 
+- enhance github profile too 

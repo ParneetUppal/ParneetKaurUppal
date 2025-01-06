@@ -1,0 +1,124 @@
+/* Updated Nerdy Style for Parneet's Portfolio */
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Space+Mono:wght@400;700&display=swap");
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  background: #1e1e2e; /* Nerdy dark theme */
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+a {
+  color: #ffa500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff4500;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #2a2a3e;
+  border-bottom: 2px solid #ffa500;
+}
+
+.logo {
+  font-family: 'Fira Code', monospace;
+  font-size: 1.8rem;
+  color: #ffa500;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid #ffa500;
+  background: none;
+  color: #ffa500;
+  font-family: 'Space Mono', monospace;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #ffa500;
+  color: #1e1e2e;
+}
+
+/* Profile Section */
+#profile {
+  text-align: center;
+  padding: 2rem;
+}
+
+.section__pic-container img {
+  border-radius: 50%;
+  border: 5px solid #ffa500;
+}
+
+/* Projects Section */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project {
+  background: #2a2a3e;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+}
+
+.project h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #ffa500;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2a2a3e;
+  color: #e0e0e0;
+}
